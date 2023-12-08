@@ -6,3 +6,4 @@
 
 ## Note
 CNI 플러그인으로 Flannel 사용
+worker node의 kubeadm join 명령어는 따로 실행해야함.

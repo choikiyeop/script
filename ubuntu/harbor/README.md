@@ -2,7 +2,7 @@
 쿠버네티스를 위한 레포지토리
 
 ## Prerequisites
-- Hardware: 
+- Hardware
 ```
 Minimum: 2 CPU / 4GB Memory / 40GB Disk
 Recommended: 4 CPU / 8GB Memory / 160GB Disk
