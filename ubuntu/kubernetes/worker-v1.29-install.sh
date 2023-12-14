@@ -4,6 +4,8 @@ echo "containerd cgroup setting"
 # containerd config default | sudo tee /etc/containerd/config.toml
 # vi /etc/containerd/config.toml에서 SystemdCgroup = true로 바꾸어 주어야 한다.
 # systemctl restart containerd
+sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.toml
+systemctl restart containerd
 
 echo "Swap off"
 sudo swapoff -a && sudo sed -i '/swap/s/^/#/' /etc/fstab
