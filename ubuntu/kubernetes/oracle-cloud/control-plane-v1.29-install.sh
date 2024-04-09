@@ -14,7 +14,7 @@ sudo systemctl restart iptables
 sudo ufw disable
 
 # /etc/hosts에서 아래 추가(프라이빗 IP, 퍼블릭 IP)
-# 10.0.14.71		144.24.90.0
+# 10.0.14.71		x.x.x.x
 
 # docker 설치
 
